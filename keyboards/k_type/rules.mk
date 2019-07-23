@@ -72,3 +72,9 @@ SLEEP_LED_ENABLE = yes  # Breathing sleep LED during USB suspend
 NKRO_ENABLE = yes	    # USB Nkey Rollover
 CUSTOM_MATRIX = yes # Custom matrix file
 DEBUG_ENABLE = yes
+
+# RGB Matrix
+RGB_MATRIX_ENABLE = custom
+SRC += i2c_master.c
+SRC += is31fl3733.c
+SRC += rgb_matrix_driver.c

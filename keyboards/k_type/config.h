@@ -59,4 +59,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_MACRO
 //#define NO_ACTION_FUNCTION
 
+/* RGB Matrix */
+#define DRIVER_LED_TOTAL 119
+#define ISSI_BRIGHTNESS  100
+#define DRIVER_COUNT     2
+#define DRIVER_ADDR_1    0xA0
+#define DRIVER_ADDR_2    0xA0
+
+// TODO: First test the keyboard without these
+// #define RGB_MATRIX_KEYPRESSES
+// #define RGB_MATRIX_KEYRELEASES
+
 #endif
